@@ -412,7 +412,8 @@ const Navigation = () => {
 // بهینه‌سازی HeroSection با حفظ mouse tracking
 const HeroSection = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
-  const mouseTimeoutRef = useRef<NodeJS.Timeout>()
+ const mouseTimeoutRef = useRef<NodeJS.Timeout | null>(null)
+
 
   // بهینه‌سازی mouse tracking با requestAnimationFrame
   const handleMouseMove = useCallback((e: MouseEvent) => {
