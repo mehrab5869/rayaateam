@@ -105,7 +105,7 @@ const LoadingScreen = ({ onComplete }: { onComplete: () => void }) => {
           }}
           transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY }}
         >
-          یارا تیم
+          رایا تیم
         </motion.h2>
 
         <div className="w-48 sm:w-64 h-2 bg-gray-700 rounded-full mx-auto overflow-hidden relative">
@@ -225,7 +225,7 @@ const Navigation = () => {
             </motion.div>
             <div className="flex flex-col">
               <span className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
-                یارا تیم
+                رایا تیم
               </span>
               <motion.span
                 className="text-xs text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity"
@@ -456,7 +456,7 @@ const HeroSection = () => {
               transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY }}
               style={{ backgroundSize: "200% 200%" }}
             >
-              یارا تیم
+              رایا تیم
             </motion.span>
           </motion.h1>
 
