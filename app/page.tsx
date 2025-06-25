@@ -196,7 +196,8 @@ const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState("home")
-  const scrollTimeoutRef = useRef<NodeJS.Timeout>()
+  const scrollTimeoutRef = useRef<NodeJS.Timeout | null>(null)
+
 
   // بهینه‌سازی scroll handler
   const handleScroll = useCallback(() => {
