@@ -10,9 +10,24 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "یارا تیم - طراحی و توسعه وب",
+  title: "رایا تیم - طراحی و توسعه وب",
   description: "تیم حرفه‌ای طراحی و توسعه وب با تخصص در فرانت‌اند و بک‌اند",
-    generator: 'v0.dev'
+  keywords: "رایا تیم، طراحی وب، توسعه وب، React، Next.js",
+  authors: [{ name: "رایا تیم" }],
+  generator: "v0.dev",
+  openGraph: {
+    title: "رایا تیم - طراحی و توسعه وب",
+    description: "تیم حرفه‌ای طراحی و توسعه وب با تخصص در فرانت‌اند و بک‌اند",
+    url: "https://rayaateam.ir",
+    siteName: "رایا تیم",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "رایا تیم - طراحی و توسعه وب",
+    description: "تیم حرفه‌ای طراحی و توسعه وب با تخصص در فرانت‌اند و بک‌اند",
+    site: "@yourtwitterhandle", // اگه داری اکانت توییتر بذار
+  },
 }
 
 export default function RootLayout({
