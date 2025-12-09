@@ -116,12 +116,6 @@ export const CONTENT: Record<'fa' | 'en', SectionContent> = {
       title: "تحصیلات و گواهینامه‌ها",
       items: [
         {
-          degree: "کارشناسی مهندسی کامپیوتر",
-          institution: "دانشگاه آزاد اسلامی",
-          year: "۱۳۹۷ - ۱۴۰۱",
-          description: "تمرکز بر مهندسی نرم‌افزار، الگوریتم‌های پیشرفته و سیستم‌های عامل."
-        },
-        {
           degree: "گواهینامه Professional Data Engineer",
           institution: "Google Cloud",
           year: "۱۴۰۲",
@@ -254,12 +248,6 @@ export const CONTENT: Record<'fa' | 'en', SectionContent> = {
     education: {
       title: "Education & Certifications",
       items: [
-        {
-          degree: "B.S. Computer Engineering",
-          institution: "Azad University",
-          year: "2018 - 2022",
-          description: "Focused on software engineering, advanced algorithms, and operating systems."
-        },
         {
           degree: "Professional Data Engineer",
           institution: "Google Cloud",
