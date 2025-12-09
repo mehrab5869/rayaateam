@@ -1,410 +1,115 @@
 <!DOCTYPE html>
-<!-- saved from url=(0020)https://Mehrab.top/ -->
-<html lang="en" dir="ltr" class="h-full dark"><!-- Mirrored from iresume-html-template.netlify.app/en/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 May 2023 06:11:21 GMT --><!-- Added by HTTrack --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!-- /Added by HTTrack -->
-
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="قالب HTML شخصی و رزومه">
-  <title>Mehrab Mm | مهراب محمدی</title>
-  <link rel="stylesheet" href="mehrab/main.min.css">
-<script src="app.js"></script>
-
-
-  <!-- Use the following file for development -->
-  <!-- <link rel="stylesheet" href="../assets/css/main.css" /> -->
-  <script>
-    if (localStorage.theme === "dark" || !"theme" in localStorage) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  </script>
-</head>
-<script src="mehrab/app.js"></script>
-<body class="bg-slate-50 antialiased text-slate-600 mx-4 sm:mx-6 mb-4 dark:bg-[#131313] dark:text-slate-400 selection:bg-[#007bff] selection:text-white">
-  <div class="max-w-7xl mx-auto">
-    <header class="py-4">
-      <div class="flex justify-between items-center">
-        <button id="toggleMenu" data-toggle="false" class="z-20  hover:cursor-pointer sm:hidden">
-          <svg class="icon" id="menuIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
-          <svg id="closeIcon" class="hidden icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <line x1="18" y1="6" x2="6" y2="18"></line>
-            <line x1="6" y1="6" x2="18" y2="18"></line>
-          </svg>
-        </button>
-        <div class="rtl:pr-2 ltr:pl-2 hidden sm:flex sm:items-center">
-          <!-- Add "index.html" if you are not using a local server or host -->
-            <img src="mehrab/profile1.png" alt="iresume logo" draggable="false" class="h-9 w-auto rtl:ml-2 ltr:mr-2 drag-none rounded-lg">
-            
-          </a>
-          <nav>
-            <ul class="flex items-center gap-x-4">
-              <li>
-            <a href="https://t.me/qtlgh" class="text-slate-600 block rtl:pr-4 ltr:pl-4 text-base font-medium hover:text-slate-900 rtl:focus:border-r-2 ltr:focus:border-l-2 focus:border-slate-700 rtl:hover:border-r-2 ltr:hover:border-l-2 hover:border-slate-700 dark:text-slate-400 dark:hover:text-slate-200 dark:hover:border-slate-200" target="_blank">My Telegram Account</a>
-          </li>
-          <li>
-            <a href="https://t.me/qtlgh" class="text-slate-600 block rtl:pr-4 ltr:pl-4 text-base font-medium hover:text-slate-900 rtl:focus:border-r-2 ltr:focus:border-l-2 focus:border-slate-700 rtl:hover:border-r-2 ltr:hover:border-l-2 hover:border-slate-700 dark:text-slate-400 dark:hover:text-slate-200 dark:hover:border-slate-200" target="_blank">My Telegram Channel</a>
-          </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="flex flex-row-reverse items-center rtl:gap-x-2 ltr:gap-x-1">
-          <button id="toggleDarkMode">
-            <svg class="icon hidden" id="moonIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-            </svg>
-            <svg class="icon hidden" id="sunIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: block;">
-              <circle cx="12" cy="12" r="5"></circle>
-              <line x1="12" y1="1" x2="12" y2="3"></line>
-              <line x1="12" y1="21" x2="12" y2="23"></line>
-              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-              <line x1="1" y1="12" x2="3" y2="12"></line>
-              <line x1="21" y1="12" x2="23" y2="12"></line>
-              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-            </svg>
-          </button>
-
-          
-        </div>
-      </div>
-      <nav id="mobileMenu" class="hidden mt-4 mb-2 rtl:mr-2.5 ltr:ml-2.5 sm:hidden">
-        <ul class="space-y-4 rtl:border-r ltr:border-l border-slate-200 dark:border-slate-700">
-          <li>
-            <a href="https://t.me/qtlgh" class="text-slate-600 block rtl:pr-4 ltr:pl-4 text-base font-medium hover:text-slate-900 rtl:focus:border-r-2 ltr:focus:border-l-2 focus:border-slate-700 rtl:hover:border-r-2 ltr:hover:border-l-2 hover:border-slate-700 dark:text-slate-400 dark:hover:text-slate-200 dark:hover:border-slate-200" target="_blank">My Telegram Account</a>
-          </li>
-          <li>
-            <a href="https://t.me/qtlgh" class="text-slate-600 block rtl:pr-4 ltr:pl-4 text-base font-medium hover:text-slate-900 rtl:focus:border-r-2 ltr:focus:border-l-2 focus:border-slate-700 rtl:hover:border-r-2 ltr:hover:border-l-2 hover:border-slate-700 dark:text-slate-400 dark:hover:text-slate-200 dark:hover:border-slate-200" target="_blank">My Telegram Channel</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div class="bg-white flex flex-col shadow-md rounded-3xl lg:flex-row dark:bg-zinc-900">
-      <aside class="bg-secondary rounded-3xl p-8 dark:bg-gray-800">
-        <div class="flex flex-col justify-center items-center sm:items-unset lg:sticky lg:top-8 lg:w-[16rem]">
-          <div class="flex flex-col sm:flex-row sm:justify-around sm:items-center mb-4 lg:flex-col animate-fadeInUp">
-            <div class="text-center max-w-[16rem]">
-          <!-- Profile Picture / تصویر پروفایل -->
-          <img src="mehrab/profile.png" alt="a faceless man" class="w-full max-w-[250px] mb-6">
-          <!-- Fullname / نام کامل -->
-          <h1 class="text-1xl text-slate-200 font-medium mb-2">Mehrab Mm | مهراب محمدی</h1>
-          <div class="flex flex-wrap justify-center mb-2">
-            <!-- Tags / عناوین-->
-            <span class="tag">Developer</span>
-          
-          </div>
-          <div class="flex flex-row-reverse justify-center mb-4">
-            <!-- Instagram page / صفحه اینستاگرام -->
-            <a href="https://www.instagram.com/iw_mehrab/">
-              <svg class="icon m-1 text-slate-300 hover:text-slate-100" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-              </svg></a>
-
-            
-          </div>
-          </div>
-          <!-- Personal Information / اطاعات شخصی -->
-          <table class="w-full text-slate-300 text-sm max-w-[250px] mb-4 sm:m-0 lg:mb-4">
-            <tbody>
-            <tr class="flex justify-between mb-4">
-              <td class="rtl:text-right ltr:text-left">Gender</td>
-              <td class="rtl:text-left ltr:text-right">Male</td>
-            </tr>
-            <tr class="flex justify-between mb-4">
-              <td class="rtl:text-right ltr:text-left">Marital Status</td>
-              <td class="rtl:text-left ltr:text-right">Single</td>
-            </tr>
-            <tr class="flex justify-between mb-4">
-              <td class="rtl:text-right ltr:text-left">Military Service Status</td>
-              <td class="rtl:text-left ltr:text-right">Educational Exemption</td>
-            </tr>
-            <tr class="flex justify-between mb-4">
-              <td class="rtl:text-right ltr:text-left">Date of Birth</td>
-              <td class="rtl:text-left ltr:text-right">10-5-2006</td>
-            </tr>
-            <tr class="flex justify-between mb-4">
-              <td class="rtl:text-right ltr:text-left">Nationality</td>
-              <td class="rtl:text-left ltr:text-right">Iranian</td>
-            </tr>
-            <tr class="flex justify-between mb-4">
-              <td class="rtl:text-right ltr:text-left">Location</td>
-              <td class="rtl:text-left ltr:text-right">Iran , mashad</td>
-            </tr>
-
-
-            <tr class="flex justify-between mb-4">
-              <td class="rtl:text-right ltr:text-left">Phone</td>
-              <td class="rtl:text-left ltr:text-right">0915-269-5146</td>
-            </tr>
-            <tr class="flex justify-between">
-              <td class="rtl:text-right ltr:text-left">E-mail</td>
-              <td class="rtl:text-left ltr:text-right">immhrab@gmail.com</td>
-            </tr>
-            </tbody>
-          </table>
-          </div>
-          <!-- Resume Pdf File Link / لینک فایل پی دی اف رزومه -->
-          
-        </div>
-      </aside>
-      <main class="bg-white p-6 lg:py-8 lg:px-10 rounded-3xl dark:bg-zinc-900/90 animate-fadeInUp">
-        <!-- About Me (Biography) / درباره من (بیوگرافی) -->
-        <div class="mb-10">
-          <div class="flex items-center text-slate-900 dark:text-slate-200 mb-2">
-            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"></circle>
-              <line x1="12" y1="16" x2="12" y2="12"></line>
-              <line x1="12" y1="8" x2="12.01" y2="8"></line>
-            </svg>
-            <h2 class="mx-2 text-2xl font-bold">
-              Biography
-            </h2>
-          </div>
-          <p>A 17-year-old teenager who loves programming and reverse engineering with 4 years of experience. </p>
-        </div>
-        <!-- Work Exprience / سوابق کاری -->
-        <div class="mb-10">
-          <div class="flex items-center mb-4 text-slate-900 dark:text-slate-200">
-            <svg class="w-6 h-6" viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
-              <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
-              <line x1="6" y1="1" x2="6" y2="4"></line>
-              <line x1="10" y1="1" x2="10" y2="4"></line>
-              <line x1="14" y1="1" x2="14" y2="4"></line>
-            </svg>
-            
-            
-            <h2 class="mx-2 text-2xl font-bold">
-              Skills
-            </h2>
-          </div>
-          <div class="grid grid-cols1 sm:grid-cols-2 gap-y-4 gap-x-6">
-            <div>
-              <span class="inline-block font-medium text-slate-700 text-md mb-2 dark:text-slate-400">python</span>
-              <div class="w-full bg-primary/25 rounded-full">
-                <div class="progress-bar" style="width: 70%;">
-                  <span class="px-2">70%</span>
-                </div>
-              </div>
-            </div>
-            <div>
-              <span class="inline-block font-medium text-slate-700 text-md mb-2 dark:text-slate-400">c#</span>
-              <div class="w-full bg-primary/25 rounded-full">
-                <div class="progress-bar" style="width: 40%;">
-                  <span class="px-2">40%</span>
-                </div>
-              </div>
-            </div>
-            <div>
-              <span class="inline-block font-medium text-slate-700 text-md mb-2 dark:text-slate-400">c++</span>
-              <div class="w-full bg-primary/25 rounded-full">
-                <div class="progress-bar" style="width: 60%;">
-                  <span class="px-2">60%</span>
-                </div>
-              </div>
-            </div>
-            <div>
-              <span class="inline-block font-medium text-slate-700 text-md mb-2 dark:text-slate-400">JavaScript</span>
-              <div class="w-full bg-primary/25 rounded-full">
-                <div class="progress-bar" style="width: 55%;">
-                  <span class="px-2">55%</span>
-                </div>
-              </div>
-            </div>
-            <div>
-              <span class="inline-block font-medium text-slate-700 text-md mb-2 dark:text-slate-400">Php</span>
-              <div class="w-full bg-primary/25 rounded-full">
-                <div class="progress-bar" style="width: 65%;">
-                  <span class="px-2">65%</span>
-                </div>
-              </div>
-            </div>
-            <div>
-              <span class="inline-block font-medium text-slate-700 text-md mb-2 dark:text-slate-400">analyzer</span>
-              <div class="w-full bg-primary/25 rounded-full">
-                <div class="progress-bar" style="width: 95%;">
-                  <span class="px-2">95%</span>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-        <!-- The Languages / زبان ها -->
-        <div class="mb-10">
-          <div class="flex items-center mb-4 text-slate-900 dark:text-slate-200">
-            <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"></circle>
-              <line x1="2" y1="12" x2="22" y2="12"></line>
-              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-            </svg>
-            <h2 class="mx-2 text-2xl font-bold">
-              Languages
-            </h2>
-          </div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-6">
-            <div class="flex items-center justify-between">
-              <span class="pl-2 font-medium text-slate-700 text-md dark:text-slate-400">Persian</span>
-              <ul class="dot-container">
-                <li class="dot"></li>
-                <li class="dot"></li>
-                <li class="dot"></li>
-                <li class="dot"></li>
-                <li class="dot"></li>
-              </ul>
-            </div>
-            <div class="flex items-center justify-between">
-              <span class="pl-2 font-medium text-slate-700 text-md dark:text-slate-400">English</span>
-              <ul class="dot-container">
-                <li class="dot"></li>
-                <li class="dot"></li>
-                <li class="dot-null"></li>
-                <li class="dot-null"></li>
-                <li class="dot-null"></li>
-              </ul>
-			</div>
-          </div>
-        </div>
-        <!-- The Favorites(Hobbies) / علاقه مندی ها -->
-       
-        
-
-        
-        <!-- Work Samples / نمونه کارها -->
-        
-            
-          <!-- Modals -->
-          <div id="showModal1" class="modal hidden fixed z-30 inset-0 overflow-y-auto">
-            <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
-              <div class="modal-area fixed inset-0 bg-slate-500 bg-opacity-75 transition-opacity">
-              </div>
-              <span class="hidden sm:inline-block sm:align-middle sm:h-screen">​</span>
-              <div class="relative inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-xl sm:w-full">
-                <div class="flex justify-between items-center p-5 rounded-t border-b dark:border-zinc-800  dark:bg-zinc-900">
-                  <h3 class="text-xl font-bold text-slate-900 lg:text-2xl dark:text-slate-200">
-                    The First Porject
-                  </h3>
-                  <button type="button" class="btn-close text-slate-400 bg-transparent hover:bg-slate-200 hover:text-slate-900 rounded-lg text-sm p-1.5 rtl:mr-auto ltr:ml-auto inline-flex items-center dark:hover:bg-slate-600 dark:hover:text-white" data-modal-toggle="defaultModal">
-                    <svg class="w-5 h-5 " fill="currentColor" viewBox="0 0 20 20" xmlns="../../www.w3.org/2000/svg.html">
-                      <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                    </svg>
-                  </button>
-                </div>
-                <div class="p-6 space-y-6 dark:bg-zinc-900">
-                  <img src="./Mehrab Mm _ مهراب مهمدی_files/cover.jpg" class="rounded-[2rem]" alt="A music streaming mobile app design">
-                  <p class="rtl:text-right ltr:text-left leading-relaxed text-slate-600 dark:text-slate-400">Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                    eu fugiat nulla pariatur.</p>
-                </div>
-                <div class="flex items-center p-6 space-x-2 rounded-b border-t border-slate-200 dark:border-zinc-800  dark:bg-zinc-900">
-                  <a href="https://Mehrab.top/#" class="w-full sm:w-auto flex flex-row-reverse justify-center items-center text-white font-[500] bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg px-5 py-3 text-base text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900">
-                    <p class="font-sans">DOWNLOAD FILE</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="rtl:ml-2 ltr:mr-2" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                      <polyline points="7 10 12 15 17 10"></polyline>
-                      <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="showModal2" class="modal hidden fixed z-30 inset-0 overflow-y-auto">
-            <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
-              <div class="modal-area fixed inset-0 bg-slate-500 bg-opacity-75 transition-opacity">
-              </div>
-              <span class="hidden sm:inline-block sm:align-middle sm:h-screen">​</span>
-              <div class="relative inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-xl sm:w-full">
-                <div class="flex justify-between items-center p-5 rounded-t border-b dark:border-zinc-800  dark:bg-zinc-900">
-                  <h3 class="text-xl font-bold text-slate-900 lg:text-2xl dark:text-slate-200">
-                    The Second Project
-                  </h3>
-                  <button type="button" class="btn-close text-slate-400 bg-transparent hover:bg-slate-200 hover:text-slate-900 rounded-lg text-sm p-1.5 rtl:mr-auto ltr:ml-auto inline-flex items-center dark:hover:bg-slate-600 dark:hover:text-white" data-modal-toggle="defaultModal">
-                    <svg class="w-5 h-5 " fill="currentColor" viewBox="0 0 20 20" xmlns="../../www.w3.org/2000/svg.html">
-                      <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                    </svg>
-                  </button>
-                </div>
-                <div class="p-6 space-y-6 dark:bg-zinc-900">
-                  <img src="./Mehrab Mm _ مهراب مهمدی_files/cover.jpg" class="rounded-[2rem]" alt="A music streaming mobile app design">
-                  <p class="rtl:text-right ltr:text-left leading-relaxed text-slate-600 dark:text-slate-400">Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                    eu fugiat nulla pariatur.</p>
-                </div>
-                <div class="flex items-center p-6 space-x-2 rounded-b border-t border-slate-200 dark:border-zinc-800  dark:bg-zinc-900">
-                  <a href="https://Mehrab.top/#" class="w-full sm:w-auto flex flex-row-reverse justify-center items-center text-white font-[500] bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg px-5 py-3 text-base text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900">
-                    <p class="font-sans">DOWNLOAD FILE</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="rtl:ml-2 ltr:mr-2" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                      <polyline points="7 10 12 15 17 10"></polyline>
-                      <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div id="showModal3" class="modal hidden fixed z-30 inset-0 overflow-y-auto">
-            <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
-              <div class="modal-area fixed inset-0 bg-slate-500 bg-opacity-75 transition-opacity">
-              </div>
-              <span class="hidden sm:inline-block sm:align-middle sm:h-screen">​</span>
-              <div class="relative inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-xl sm:w-full">
-                <div class="flex justify-between items-center p-5 rounded-t border-b dark:border-zinc-800  dark:bg-zinc-900">
-                  <h3 class="text-xl font-bold text-slate-900 lg:text-2xl dark:text-slate-200">
-                    The Third Project
-                  </h3>
-                  <button type="button" class="btn-close text-slate-400 bg-transparent hover:bg-slate-200 hover:text-slate-900 rounded-lg text-sm p-1.5 rtl:mr-auto ltr:ml-auto inline-flex items-center dark:hover:bg-slate-600 dark:hover:text-white" data-modal-toggle="defaultModal">
-                    <svg class="w-5 h-5 " fill="currentColor" viewBox="0 0 20 20" xmlns="../../www.w3.org/2000/svg.html">
-                      <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-                    </svg>
-                  </button>
-                </div>
-                <div class="p-6 space-y-6 dark:bg-zinc-900">
-                  <img src="./Mehrab Mm _ مهراب مهمدی_files/cover.jpg" class="rounded-[2rem]" alt="A music streaming mobile app design">
-                  <p class="rtl:text-right ltr:text-left leading-relaxed text-slate-600 dark:text-slate-400">Lorem ipsum
-                    dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                    eu fugiat nulla pariatur.</p>
-                </div>
-                <div class="flex items-center p-6 space-x-2 rounded-b border-t border-slate-200 dark:border-zinc-800  dark:bg-zinc-900">
-                  <a href="https://Mehrab.top/#" class="w-full sm:w-auto flex flex-row-reverse justify-center items-center text-white font-[500] bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg px-5 py-3 text-base text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900">
-                    <p class="font-sans">DOWNLOAD FILE</p>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="rtl:ml-2 ltr:mr-2" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                      <polyline points="7 10 12 15 17 10"></polyline>
-                      <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </main></div>
+<html lang="fa" dir="rtl" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mehrab | API Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Outfit', 'sans-serif'],
+              vazir: ['Vazirmatn', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                dark: '#030303',
+                accent: '#3b82f6',
+              }
+            },
+            backgroundImage: {
+              'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+            },
+            animation: {
+              'spin-slow': 'spin 15s linear infinite',
+              'flow': 'flow 10s ease infinite',
+              'pulse-fast': 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            },
+            keyframes: {
+              flow: {
+                '0%, 100%': { transform: 'translateY(0) scale(1)' },
+                '50%': { transform: 'translateY(-20px) scale(1.05)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #000000;
+        color: white;
+        overflow-x: hidden;
+      }
       
-    </div>
-    <footer class="mx-auto text-center py-8">
-      <p class="text-slate-500 ltr">
-        Copyright © ? — All rights reserved.
-      </p>
-    </footer>
-  
-  <script src="./Mehrab Mm _ مهراب مهمدی_files/main.min.js.download" defer=""></script>
+      /* Smooth selection */
+      ::selection {
+        background: rgba(59, 130, 246, 0.3);
+        color: #fff;
+      }
 
+      /* Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #000; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #222; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #333; 
+      }
 
+      /* Noise Overlay */
+      .bg-noise {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 50;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
+      }
+      
+      /* Liquid Text */
+      .text-liquid {
+        background: linear-gradient(to right, #fff 20%, #71717a 40%, #fff 60%, #71717a 80%);
+        background-size: 200% auto;
+        color: #000;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: shine 5s linear infinite;
+      }
 
-
-</body><!-- Mirrored from iresume-html-template.netlify.app/en/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 19 May 2023 06:11:30 GMT --></html>
+      @keyframes shine {
+        to {
+          background-position: 200% center;
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
